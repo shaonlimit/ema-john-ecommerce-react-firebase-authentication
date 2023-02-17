@@ -1,0 +1,22 @@
+.authentication {
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-data input {
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.form-data button {
+    margin: 10px;
+    padding: 5px 10px;
+}

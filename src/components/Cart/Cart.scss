@@ -1,0 +1,30 @@
+.cart {
+    padding: 10px 20px;
+    .total {
+        color: red;
+        font-weight: 600;
+    }
+   
+   
+    h4 {
+        text-align: center;
+        border-bottom: 1px solid lightgray;
+    }
+    table {
+        
+       tbody {
+        tr {
+            
+            td {
+                &:nth-child(2) {
+                    width: 100%;
+                    text-align: right;
+                }
+                &:nth-child(1){
+                    width: 100%;
+                }
+            }
+        }
+       }
+    }
+}

@@ -1,0 +1,14 @@
+.product {
+    display: flex;
+    gap: 25px;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 20px;
+  
+    .product-img {
+       
+        img {
+          width: 100%; 
+        }
+    }
+}
